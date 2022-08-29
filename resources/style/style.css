@@ -1,0 +1,58 @@
+body {
+  font-size: 16px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.logo-and-name {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+}
+
+.logo-and-name img {
+  height: 60px;
+  margin: auto 0;
+  padding-right: 20px;
+}
+
+.logo-and-name h1 {
+  margin: auto 0;
+  font-size: 32px;
+}
+
+.logo-and-name h1 span {
+  color: gray;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding-right: 24px;
+}
+
+header ul li {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+main {
+  position: relative;
+  top: 64px;
+}
+
+.landing-section {
+  background: grey;
+  display: flex;
+}
