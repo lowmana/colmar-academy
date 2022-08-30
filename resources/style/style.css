@@ -1,6 +1,7 @@
 body {
   font-size: 16px;
   font-family: 'Roboto Mono', monospace;
+  color: #37474f;
   margin: 0;
 }
 
@@ -54,6 +55,8 @@ main {
   top: 64px;
 }
 
+/*-----------------  landing section ----------------*/
+
 .landing-section {
   background: #c3c4c7;
   display: flex;
@@ -91,6 +94,8 @@ main {
 
   color: white;
 }
+
+/*-----------------  introduction section ----------------*/
 
 .introduction-section {
   display: flex;
@@ -157,6 +162,8 @@ main {
   font-size: 15px;
 }
 
+/*-----------------  course section ----------------*/
+
 .course-section {
   background-color: #c3c4c7;
 }
@@ -197,4 +204,57 @@ main {
 
 .course-section .course-info .course-box img {
   max-width: 100%;
+}
+
+/*-----------------  thesis section ----------------*/
+
+.thesis-section {
+  background-color: white;
+}
+
+.thesis-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 32px;
+}
+
+.thesis-section h3 {
+  font-size: 22px;
+}
+
+.thesis-section p {
+  color: dimgrey
+}
+.thesis-info {
+  display: flex;
+}
+
+.thesis-info .left-section {
+  width: 60%;
+  margin: 0 24px 32px 24px;
+
+}
+
+.thesis-section video {
+  max-width: 100%;
+}
+
+.thesis-info .info-box {
+  display: flex;
+}
+
+.thesis-section img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+  margin-top: 0;
+}
+
+.thesis-section .text {
+  margin: auto 0;
+  margin-right: 16px;
+}
+
+.thesis-section h4 {
+  font-size: 18px;
 }
