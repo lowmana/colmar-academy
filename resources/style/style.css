@@ -156,3 +156,45 @@ main {
   color: royalblue;
   font-size: 15px;
 }
+
+.course-section {
+  background-color: #c3c4c7;
+}
+
+.course-section h2 {
+  padding-top: 32px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.course-section .course-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 56px 32px 56px;
+}
+
+.course-section .course-info .course-box {
+  flex:1 27%;
+
+  margin: 0 16px 32px 16px;
+  background-color: white;
+}
+
+.course-section .course-info .course-box .text {
+  padding: 16px;
+  line-height: 1.6;
+}
+
+.course-section .course-info .course-box .text h3 {
+  margin: 0;
+}
+
+.course-section .course-info .course-box .text h4 {
+  margin: 8px 0;
+  font-weight: normal;
+}
+
+.course-section .course-info .course-box img {
+  max-width: 100%;
+}
