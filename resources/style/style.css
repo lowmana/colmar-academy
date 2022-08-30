@@ -88,5 +88,36 @@ main {
   padding: 8px 0;
 
   color: white;
+}
 
+.introduction-section {
+  display: flex;
+  background-color: white;
+}
+
+.introduction-section .left-section {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.introduction-section .left-section img {
+  width: 100%;
+}
+
+.introduction-section .right-section {
+  padding-top: 16px;
+  width: 40%;
+}
+
+.introduction-section .right-section .info-box {
+  display: flex;
+}
+
+.introduction-section .right-section .info-box img {
+  width: 35%;
+  padding: 16px;
+}
+
+.introduction-section .right-section .info-box .text {
+  width: 65%;
 }
