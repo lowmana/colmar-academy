@@ -77,12 +77,12 @@ main {
 }
 
 .landing-section .text h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: #3c434a;
 }
 
 .landing-section .text h2 {
-  font-size: 30px;
+  font-size: 22px;
 
 }
 
@@ -257,4 +257,18 @@ main {
 
 .thesis-section h4 {
   font-size: 18px;
+}
+
+footer {
+  position: relative;
+  top: 64px;
+  border: 1px solid grey;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 16px 24px;
 }
