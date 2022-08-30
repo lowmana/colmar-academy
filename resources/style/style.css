@@ -1,8 +1,13 @@
-body {
-  font-size: 16px;
-  font-family: 'Roboto Mono', monospace;
-  color: #37474f;
+* {
   margin: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  word-spacing: -3px;
+  line-height: 1.5;
+  color: #37474f;
 }
 
 header {
@@ -29,7 +34,7 @@ header {
 
 .logo-and-name h1 {
   margin: auto 0;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700
 }
 
@@ -47,7 +52,7 @@ header ul {
 
 header ul li {
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 main {
@@ -65,6 +70,7 @@ main {
 .landing-section img {
   padding: 32px 24px;
   width: 60%;
+  height: auto;
 }
 
 .landing-section .text {
@@ -77,18 +83,18 @@ main {
 }
 
 .landing-section .text h1 {
-  font-size: 40px;
+  font-size: 26px;
   color: #3c434a;
 }
 
 .landing-section .text h2 {
-  font-size: 22px;
-
+  font-size: 18px;
+  margin: 20px 0;
 }
 
 .landing-section .text h3 {
   background-color: grey;
-  font-size: 30x;
+  font-size: 18x;
   text-align: center;
   padding: 8px 0;
 
@@ -109,15 +115,18 @@ main {
 
 .introduction-section .left-section img {
   width: 100%;
+  height: auto;
 }
 
 .introduction-section .left-section h2 {
-  font-size: 35px;
+  font-size: 22px;
   font-weight: 700;
-  color: #3c434a
+  color: #3c434a;
+  margin: 32px 0 24px 0;
 }
 
 .introduction-section .left-section p {
+  font-size: 14px;
   font-weight: 300;
   color: dimgrey;
 }
@@ -126,6 +135,7 @@ main {
   font-size: 12px;
   font-weight: 500;
   color: dimgrey;
+  margin: 32px 0;
 }
 
 .introduction-section .right-section {
@@ -135,25 +145,29 @@ main {
 
 .introduction-section .right-section .info-box {
   display: flex;
+  align-items: center;
 }
 
 .introduction-section .right-section .info-box img {
   width: 35%;
+  height: auto;
   padding: 16px;
 }
 
 .introduction-section .right-section .info-box .text {
   width: 65%;
+  margin: auto 0;
 }
 
 .introduction-section .right-section .info-box .text h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .introduction-section .right-section .info-box .text h5 {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
+  margin: 10px 0;
 }
 
 .introduction-section .right-section .info-box .text a {
@@ -169,9 +183,9 @@ main {
 }
 
 .course-section h2 {
-  padding-top: 32px;
   font-size: 35px;
   text-align: center;
+  padding: 32px;
 }
 
 .course-section .course-info {
@@ -188,22 +202,23 @@ main {
   background-color: white;
 }
 
-.course-section .course-info .course-box .text {
-  padding: 16px;
-  line-height: 1.6;
+.course-section .course-info .course-box img {
+  max-width: 100%;
 }
 
-.course-section .course-info .course-box .text h3 {
-  margin: 0;
+.course-section .course-info .course-box .text {
+  padding: 16px;
 }
 
 .course-section .course-info .course-box .text h4 {
   margin: 8px 0;
   font-weight: normal;
+  color: dimgrey;
 }
 
-.course-section .course-info .course-box img {
-  max-width: 100%;
+.course-section p {
+  font-size: 14px;
+  color: dimgrey;
 }
 
 /*-----------------  thesis section ----------------*/
@@ -239,6 +254,14 @@ main {
   max-width: 100%;
 }
 
+.thesis-section .left-section h4 {
+  margin: 24px 0 8px 0;
+  font-size: 20px;
+}
+
+.thesis-section .left-section p {
+  font-size: 14px;
+}
 .thesis-info .info-box {
   display: flex;
 }
@@ -255,8 +278,16 @@ main {
   margin-right: 16px;
 }
 
-.thesis-section h4 {
-  font-size: 18px;
+.thesis-section .right-section {
+  width: 40%;
+}
+
+.thesis-section .right-section h3 {
+  font-size: 20px;
+}
+
+.thesis-section .right-section p {
+  font-size: 14px;
 }
 
 footer {
@@ -271,4 +302,5 @@ footer {
 
 footer p {
   margin: 16px 24px;
+  color: dimgrey;
 }
